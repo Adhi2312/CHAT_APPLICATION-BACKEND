@@ -114,7 +114,7 @@ exports.findRoom=async(req,res)=>{
             
                     }],
                     "data":{
-                        "mess":`welcome again`,
+                        "mess":`welcome to our chat room ${user.username}`,
                         "room_name":req.body.room_name
                     }
                 }
